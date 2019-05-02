@@ -127,7 +127,7 @@ submit.on("click",
 
             }
             else {
-                alert("Please input a correct date format: mm/dd/year or m/d/year! m, d and year should be integers!");
+                alert("Please input a correct date format: (mm/m)/(dd/d)/yyyy! mm/m, dd/d and yyyy need to be integers!");
                 inputElement.property("value", "");
             }
         }
